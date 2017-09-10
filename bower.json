@@ -1,0 +1,21 @@
+{
+  "name": "svg",
+  "authors": [
+    "Lorie Ransom <lorie@ransomdesign.com>"
+  ],
+  "description": "map testing for atreegarden",
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "Snap.svg": "snap.svg#^0.5.1"
+  }
+}

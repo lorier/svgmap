@@ -1,0 +1,10 @@
+body{
+	height: 1000px;
+}
+* {
+	padding: 0;
+	margin: 0;
+}
+#close.inactive{
+	display: none;
+}
