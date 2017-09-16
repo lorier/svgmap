@@ -1,6 +1,7 @@
 window.onload = function(){
 
 	var atg = Snap('#map');
+	console.log(atg);
 
 
 	//t=relative transform, T=absolute transform, s=relative scale, S=absolute Scale
@@ -16,7 +17,7 @@ window.onload = function(){
 	var bgW = bg.getBBox().width;
 	var bgH = bg.getBBox().height;
 
-	var paths = atg.selectAll(".garden"); //get all gardens
+	var paths = atg.selectAll("path"); //get all gardens
 
 	var mapx;
 	var mapy;
@@ -26,7 +27,7 @@ window.onload = function(){
 	var x; //close button
 
 	makeClose();
-	enableClickhandlers(true);
+	enableClickhandlers();
 	
 	function getScalingCenter(obj){
 
@@ -37,8 +38,8 @@ window.onload = function(){
 		mapy = bgY - cy;
 
 		clickedPath = obj.attr("id");
-		console.log(clickedPath + " center: " + cx + ", " + cy);
-		console.log("bg center: " + mapx + ", " + mapy);
+		// console.log(clickedPath + " center: " + cx + ", " + cy);
+		// console.log("bg center: " + mapx + ", " + mapy);
 
 		return { "cx" : mapx, "cy" : mapy }
 
@@ -77,22 +78,29 @@ window.onload = function(){
 
 	function zoomMap(evt){
 
-		pt = getScalingCenter(this);
+		//exclude non-garden paths from zoom. 
+		var className =  evt.target.getAttribute('class');
+		console.log(className);
 
-		pct = calculateZoom(this);
+		var str = className;
+		var isGarden = /st[2-9]/.test(str);
+		console.log(isGarden);
 
-		// console.log(this);
-		
-		// console.log(pt);
+		if(isGarden && evt.target.id){
 
-		x.removeClass("inactive");
+			var nodeName = "#"+ evt.target.id;
 
-		bg.animate({transform: "T"+pt.cx+" "+pt.cy+"S"+pct*.9 + " " + pct*.9 + " " + bgW/2 + " " + bgH/2}, 200, mina.easein); 
-		
-		console.log("bg dimensions: w=> " + bg.getBBox().width + " h=>" + bg.getBBox().height);
-		console.log("Garden dimensions: w=>" + this.getBBox().width + " h=>" + this.getBBox().height);
-		console.log(" ");
-		// enableClickhandlers(false);
+			var node = atg.select(nodeName);
+
+			// // console.log(node);
+			var pt = getScalingCenter(node);
+			var pct = calculateZoom(node);
+
+			x.removeClass("inactive");
+
+			bg.animate({transform: "T"+pt.cx+" "+pt.cy+"S"+pct*.9 + " " + pct*.9 + " " + bgW/2 + " " + bgH/2}, 200, mina.easein); 
+		}
+
 	}
 
 	function zoomMapOut(evt){
@@ -111,17 +119,8 @@ window.onload = function(){
 		x.click(zoomMapOut);
 	}
 
-	function enableClickhandlers(bool){
-		if(bool){
-			for (var i = 0; i < paths.length; i++){
-				paths[i].click(zoomMap);			
-			}
-		}else {
-			for (var i = 0; i < paths.length; i++){
-				paths[i].unclick(zoomMap);			
-			}
-
-		}
+	function enableClickhandlers(){
+		bg.click(zoomMap);
 	}
 
 

@@ -11,11 +11,16 @@
         <link rel="author" href="humans.txt">
     </head>
     <body>
+		<?php 
+			if ( file_exists('map.svg') )
+			{
+				readfile('map.svg');
+				exit();
+			}
+		 ?>
+
+		<!-- 
 		
-		<?xml version="1.0" encoding="utf-8"?>
-		<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-			<!-- <svg id="map" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-				viewBox="0 0 1565.3 939.8" enable-background="new 0 0 1565.3 939.8" xml:space="preserve"> -->
 				<svg id="map" version="1.1" viewBox="0 0 1565 940">
 				<g id="bg-layer">
 					<rect  x="0" y="0" fill="#FFFFFF" width="1565" height="940"/>
@@ -151,6 +156,5 @@
 						c7-3.1,13.7-6.7,20.2-10.7c43.2-26.7,71.7-69.3,87.7-116.8c8-23.7,11.3-49,13-73.8C1454.3,490.3,1453.7,467.4,1452.5,444.6z"/>
 			</g>
 																				
-																				</svg>
     </body>
 </html>

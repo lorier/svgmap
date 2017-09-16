@@ -1,7 +1,8 @@
 body{
-	width: 1565px;
+	width: 100%;
+/*	width: 1565px;
 	height: 940px;
-}
+*/}
 * {
 	padding: 0;
 	margin: 0;
