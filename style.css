@@ -6,7 +6,22 @@ body{
 * {
 	padding: 0;
 	margin: 0;
+	cursor: default;
 }
 #close.inactive{
 	display: none;
 }
+/*.sunplant {
+	position: relative;
+	transform: scale(1,1);
+	transition: all 0.5s ease-out;
+	position: fixed;
+	transform-origin: 0 0;
+
+}
+.pop {
+	transition: all 0.5s ease-out;
+	transform: scale(2,2);
+	transform-origin: 0 0;
+
+}*/

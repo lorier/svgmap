@@ -1,0 +1,792 @@
+[
+    {
+        "id": 1633,
+        "date": "2017-05-19T10:29:43",
+        "date_gmt": "2017-05-19T17:29:43",
+        "guid": {
+            "rendered": "http://atreegarden.com/?page_id=1633"
+        },
+        "modified": "2017-06-16T11:05:32",
+        "modified_gmt": "2017-06-16T18:05:32",
+        "slug": "grading-system",
+        "status": "publish",
+        "type": "page",
+        "link": "http://atreegarden.com/grading-system/",
+        "title": {
+            "rendered": "Grading System"
+        },
+        "content": {
+            "rendered": "<h5>If you&#8217;ve checked out any of the plant entries you probably noticed I give every plant a letter grade. This grade is <strong><em>completely unscientific</em></strong>.</h5>\n<p>The grades are a representation of:</p>\n<ul>\n<li>How well it works in a particular spot in my garden at a particular point in time</li>\n<li>How well it works with my gardening style, which I would describe as quite <em>laissez-faire</em>.</li>\n<li>My particular taste in plants</li>\n</ul>\n<p>I try to explain myself a bit in the Shady Assessment comment to help give some context. My goals are to:</p>\n<ol>\n<li>Remind myself how much I do or do not like a plant (yes I need reminding) and</li>\n<li>Perhaps give other folks a guidepost for how or if they should attempt to grow a particular species/variety.</li>\n</ol>\n<p>I hope you find this helpful, but be warned, you may have a completely different experience with a particular plant than me!</p>\n",
+            "protected": false
+        },
+        "excerpt": {
+            "rendered": "<p>If you&#8217;ve checked out any of the plant entries you probably noticed I give every plant a letter grade. This grade is completely unscientific. The grades are a representation of: How well it works in a particular spot in my garden at a particular point in time How well it works with my gardening style, [&hellip;]</p>\n",
+            "protected": false
+        },
+        "author": 1,
+        "featured_media": 0,
+        "parent": 0,
+        "menu_order": 0,
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "template": "",
+        "meta": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "http://atreegarden.com/wp-json/wp/v2/pages/1633"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "http://atreegarden.com/wp-json/wp/v2/pages"
+                }
+            ],
+            "about": [
+                {
+                    "href": "http://atreegarden.com/wp-json/wp/v2/types/page"
+                }
+            ],
+            "author": [
+                {
+                    "embeddable": true,
+                    "href": "http://atreegarden.com/wp-json/wp/v2/users/1"
+                }
+            ],
+            "replies": [
+                {
+                    "embeddable": true,
+                    "href": "http://atreegarden.com/wp-json/wp/v2/comments?post=1633"
+                }
+            ],
+            "version-history": [
+                {
+                    "href": "http://atreegarden.com/wp-json/wp/v2/pages/1633/revisions"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "http://atreegarden.com/wp-json/wp/v2/media?parent=1633"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 1303,
+        "date": "2017-04-25T19:11:07",
+        "date_gmt": "2017-04-26T02:11:07",
+        "guid": {
+            "rendered": "http://atreegarden.com/?page_id=1303"
+        },
+        "modified": "2017-06-15T09:12:38",
+        "modified_gmt": "2017-06-15T16:12:38",
+        "slug": "resources",
+        "status": "publish",
+        "type": "page",
+        "link": "http://atreegarden.com/resources/",
+        "title": {
+            "rendered": "Resources"
+        },
+        "content": {
+            "rendered": "<h6 style=\"text-align: center;\"> Here are the very beginnings of a resource list I hope to expand on over time.</h6>\n<p><a href=\"http://www.greatplantpicks.org\">Great Plant Picks<br />\n</a>I check nearly every plant I research against this list. Their data is categorized on the <a href=\"http://www.greatplantpicks.org/plantlists/search/\">Plant List</a> page, which is super helpful for checking out which shade plants they recommend.</p>\n<p><a href=\"http://davesgarden.com/guides/pf/\">Dave&#8217;s Garden Plant Files<br />\n</a>A large repository of information about all kinds of plants.</p>\n<p><a href=\"http://www.hostasdirect.com\">Hostas Direct</a><br />\nMost of my hostas came from this company. I made a big order in 2011 and have been pretty happy with the results. I really like that you can filter their hosta selection by slug and sun resistance. They have other great shade plants too, along with a few sun selections.</p>\n<p><a href=\"http://www.savageplants.com\">Savage Plants &amp; Landscape</a><br />\nI love this nursery! It&#8217;s not far from our house as the crow flies but unfortunately there&#8217;s a ferry ride involved. If that weren&#8217;t the case this would be my go-to plant source. Savage is a bit smaller than the mainland nurseries I frequent which makes for a less daunting browsing session. And they make up for their smaller size by having a better selection of unusual plants. We&#8217;ve picked up some great hard-to-find shade plants on our way back from trips to Bainbridge or the Olympic Peninsula. If it&#8217;s open when we pass by, it&#8217;s pretty much a given that we will stop and have a look around.</p>\n",
+            "protected": false
+        },
+        "excerpt": {
+            "rendered": "<p> Here are the very beginnings of a resource list I hope to expand on over time. Great Plant Picks I check nearly every plant I research against this list. Their data is categorized on the Plant List page, which is super helpful for checking out which shade plants they recommend. Dave&#8217;s Garden Plant Files A large [&hellip;]</p>\n",
+            "protected": false
+        },
+        "author": 1,
+        "featured_media": 0,
+        "parent": 0,
+        "menu_order": 0,
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "template": "",
+        "meta": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "http://atreegarden.com/wp-json/wp/v2/pages/1303"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "http://atreegarden.com/wp-json/wp/v2/pages"
+                }
+            ],
+            "about": [
+                {
+                    "href": "http://atreegarden.com/wp-json/wp/v2/types/page"
+                }
+            ],
+            "author": [
+                {
+                    "embeddable": true,
+                    "href": "http://atreegarden.com/wp-json/wp/v2/users/1"
+                }
+            ],
+            "replies": [
+                {
+                    "embeddable": true,
+                    "href": "http://atreegarden.com/wp-json/wp/v2/comments?post=1303"
+                }
+            ],
+            "version-history": [
+                {
+                    "href": "http://atreegarden.com/wp-json/wp/v2/pages/1303/revisions"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "http://atreegarden.com/wp-json/wp/v2/media?parent=1303"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 1160,
+        "date": "2017-04-21T15:05:11",
+        "date_gmt": "2017-04-21T15:05:11",
+        "guid": {
+            "rendered": "http://atreegarden.com/?page_id=1160"
+        },
+        "modified": "2017-05-02T23:15:46",
+        "modified_gmt": "2017-05-03T06:15:46",
+        "slug": "before-and-after",
+        "status": "publish",
+        "type": "page",
+        "link": "http://atreegarden.com/before-and-after/",
+        "title": {
+            "rendered": "Before and After"
+        },
+        "content": {
+            "rendered": "<h6 style=\"text-align: center;\">I love before and after pics! I&#8217;m starting off with just a few photos of the renovated sunroom, but<strong> there&#8217;s more to come</strong>!</h6>\n",
+            "protected": false
+        },
+        "excerpt": {
+            "rendered": "<p>I love before and after pics! I&#8217;m starting off with just a few photos of the renovated sunroom, but there&#8217;s more to come!</p>\n",
+            "protected": false
+        },
+        "author": 1,
+        "featured_media": 0,
+        "parent": 0,
+        "menu_order": 0,
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "template": "page-before-after-gallery.php",
+        "meta": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "http://atreegarden.com/wp-json/wp/v2/pages/1160"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "http://atreegarden.com/wp-json/wp/v2/pages"
+                }
+            ],
+            "about": [
+                {
+                    "href": "http://atreegarden.com/wp-json/wp/v2/types/page"
+                }
+            ],
+            "author": [
+                {
+                    "embeddable": true,
+                    "href": "http://atreegarden.com/wp-json/wp/v2/users/1"
+                }
+            ],
+            "replies": [
+                {
+                    "embeddable": true,
+                    "href": "http://atreegarden.com/wp-json/wp/v2/comments?post=1160"
+                }
+            ],
+            "version-history": [
+                {
+                    "href": "http://atreegarden.com/wp-json/wp/v2/pages/1160/revisions"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "http://atreegarden.com/wp-json/wp/v2/media?parent=1160"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 1012,
+        "date": "2017-03-18T17:01:51",
+        "date_gmt": "2017-03-18T17:01:51",
+        "guid": {
+            "rendered": "http://atreegarden.com/?page_id=1012"
+        },
+        "modified": "2017-06-01T12:48:29",
+        "modified_gmt": "2017-06-01T19:48:29",
+        "slug": "terms-of-service",
+        "status": "publish",
+        "type": "page",
+        "link": "http://atreegarden.com/terms-of-service/",
+        "title": {
+            "rendered": "Disclaimer"
+        },
+        "content": {
+            "rendered": "<p>The information contained on http://atreegarden.com website (the &#8220;Service&#8221;) is for general information purposes only.</p>\n<p>A Tree Garden assumes no responsibility for errors or omissions in the contents on the Service.</p>\n<p>In no event shall A Tree Garden be liable for any special, direct, indirect, consequential, or incidental damages or any damages whatsoever, whether in an action of contract, negligence or other tort, arising out of or in connection with the use of the Service or the contents of the Service. A Tree Garden reserves the right to make additions, deletions, or modification to the contents on the Service at any time without prior notice.</p>\n<p>A Tree Garden does not warrant that the website is free of viruses or other harmful components.</p>\n<p>This Disclaimer is licensed by <a href=\"https://termsfeed.com/\" rel=\"nofollow\">TermsFeed Generator</a> to A Tree Garden.</p>\n<h2>External links disclaimer</h2>\n<p>http://atreegarden.com website may contain links to external websites that are not provided or maintained by or in any way affiliated with A Tree Garden</p>\n<p>Please note that the A Tree Garden does not guarantee the accuracy, relevance, timeliness, or completeness of any information on these external websites.</p>\n",
+            "protected": false
+        },
+        "excerpt": {
+            "rendered": "<p>The information contained on http://atreegarden.com website (the &#8220;Service&#8221;) is for general information purposes only. A Tree Garden assumes no responsibility for errors or omissions in the contents on the Service. In no event shall A Tree Garden be liable for any special, direct, indirect, consequential, or incidental damages or any damages whatsoever, whether in an [&hellip;]</p>\n",
+            "protected": false
+        },
+        "author": 1,
+        "featured_media": 0,
+        "parent": 0,
+        "menu_order": 0,
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "template": "",
+        "meta": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "http://atreegarden.com/wp-json/wp/v2/pages/1012"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "http://atreegarden.com/wp-json/wp/v2/pages"
+                }
+            ],
+            "about": [
+                {
+                    "href": "http://atreegarden.com/wp-json/wp/v2/types/page"
+                }
+            ],
+            "author": [
+                {
+                    "embeddable": true,
+                    "href": "http://atreegarden.com/wp-json/wp/v2/users/1"
+                }
+            ],
+            "replies": [
+                {
+                    "embeddable": true,
+                    "href": "http://atreegarden.com/wp-json/wp/v2/comments?post=1012"
+                }
+            ],
+            "version-history": [
+                {
+                    "href": "http://atreegarden.com/wp-json/wp/v2/pages/1012/revisions"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "http://atreegarden.com/wp-json/wp/v2/media?parent=1012"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 1006,
+        "date": "2017-03-18T06:15:26",
+        "date_gmt": "2017-03-18T06:15:26",
+        "guid": {
+            "rendered": "http://atreegarden.com/?page_id=1006"
+        },
+        "modified": "2017-03-18T06:15:26",
+        "modified_gmt": "2017-03-18T06:15:26",
+        "slug": "privacy-policy",
+        "status": "publish",
+        "type": "page",
+        "link": "http://atreegarden.com/privacy-policy/",
+        "title": {
+            "rendered": "Privacy Policy"
+        },
+        "content": {
+            "rendered": "<p>This blog does not share personal information with third parties nor do we store any information about your visit to this blog other than to analyze and optimize your content and reading experience through the use of cookies.</p>\n<p>You can turn off the use of cookies at anytime by changing your specific browser settings.</p>\n<p>We are not responsible for republished content from this blog on other blogs or websites without our permission.</p>\n<p>This privacy policy is subject to change without notice and was last updated on March 17, 2017. If you have any questions feel free to contact me directly here: info@atreegarden.com.</p>\n",
+            "protected": false
+        },
+        "excerpt": {
+            "rendered": "<p>This blog does not share personal information with third parties nor do we store any information about your visit to this blog other than to analyze and optimize your content and reading experience through the use of cookies. You can turn off the use of cookies at anytime by changing your specific browser settings. We [&hellip;]</p>\n",
+            "protected": false
+        },
+        "author": 1,
+        "featured_media": 0,
+        "parent": 0,
+        "menu_order": 0,
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "template": "",
+        "meta": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "http://atreegarden.com/wp-json/wp/v2/pages/1006"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "http://atreegarden.com/wp-json/wp/v2/pages"
+                }
+            ],
+            "about": [
+                {
+                    "href": "http://atreegarden.com/wp-json/wp/v2/types/page"
+                }
+            ],
+            "author": [
+                {
+                    "embeddable": true,
+                    "href": "http://atreegarden.com/wp-json/wp/v2/users/1"
+                }
+            ],
+            "replies": [
+                {
+                    "embeddable": true,
+                    "href": "http://atreegarden.com/wp-json/wp/v2/comments?post=1006"
+                }
+            ],
+            "version-history": [
+                {
+                    "href": "http://atreegarden.com/wp-json/wp/v2/pages/1006/revisions"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "http://atreegarden.com/wp-json/wp/v2/media?parent=1006"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 814,
+        "date": "2016-07-24T21:04:06",
+        "date_gmt": "2016-07-24T21:04:06",
+        "guid": {
+            "rendered": "http://atreegarden.com/?page_id=814"
+        },
+        "modified": "2016-07-24T21:04:06",
+        "modified_gmt": "2016-07-24T21:04:06",
+        "slug": "obnoxious-weeds",
+        "status": "publish",
+        "type": "page",
+        "link": "http://atreegarden.com/obnoxious-weeds/",
+        "title": {
+            "rendered": "Obnoxious Weeds"
+        },
+        "content": {
+            "rendered": "",
+            "protected": false
+        },
+        "excerpt": {
+            "rendered": "",
+            "protected": false
+        },
+        "author": 1,
+        "featured_media": 0,
+        "parent": 0,
+        "menu_order": 0,
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "template": "",
+        "meta": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "http://atreegarden.com/wp-json/wp/v2/pages/814"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "http://atreegarden.com/wp-json/wp/v2/pages"
+                }
+            ],
+            "about": [
+                {
+                    "href": "http://atreegarden.com/wp-json/wp/v2/types/page"
+                }
+            ],
+            "author": [
+                {
+                    "embeddable": true,
+                    "href": "http://atreegarden.com/wp-json/wp/v2/users/1"
+                }
+            ],
+            "replies": [
+                {
+                    "embeddable": true,
+                    "href": "http://atreegarden.com/wp-json/wp/v2/comments?post=814"
+                }
+            ],
+            "version-history": [
+                {
+                    "href": "http://atreegarden.com/wp-json/wp/v2/pages/814/revisions"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "http://atreegarden.com/wp-json/wp/v2/media?parent=814"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 717,
+        "date": "2016-06-18T19:31:14",
+        "date_gmt": "2016-06-18T19:31:14",
+        "guid": {
+            "rendered": "http://atreegarden.com/?page_id=717"
+        },
+        "modified": "2017-05-19T10:28:27",
+        "modified_gmt": "2017-05-19T17:28:27",
+        "slug": "about",
+        "status": "publish",
+        "type": "page",
+        "link": "http://atreegarden.com/about/",
+        "title": {
+            "rendered": "About"
+        },
+        "content": {
+            "rendered": "<div id=\"attachment_779\" style=\"width: 318px\" class=\"wp-caption alignleft\"><a href=\"https://i1.wp.com/atreegarden.com/wp-content/uploads/2016/07/backyard_view.jpg\" data-rel=\"lightbox-0\" title=\"\"><img data-attachment-id=\"779\" data-permalink=\"http://atreegarden.com/about/backyard_view/\" data-orig-file=\"https://i1.wp.com/atreegarden.com/wp-content/uploads/2016/07/backyard_view.jpg?fit=835%2C1024\" data-orig-size=\"835,1024\" data-comments-opened=\"0\" data-image-meta=\"{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}\" data-image-title=\"Backyard View\" data-image-description=\"\" data-medium-file=\"https://i1.wp.com/atreegarden.com/wp-content/uploads/2016/07/backyard_view.jpg?fit=245%2C300\" data-large-file=\"https://i1.wp.com/atreegarden.com/wp-content/uploads/2016/07/backyard_view.jpg?fit=750%2C920\" class=\" wp-image-779\" src=\"https://i1.wp.com/atreegarden.com/wp-content/uploads/2016/07/backyard_view.jpg?resize=308%2C377\" alt=\"\" srcset=\"https://i1.wp.com/atreegarden.com/wp-content/uploads/2016/07/backyard_view.jpg?resize=245%2C300 245w, https://i1.wp.com/atreegarden.com/wp-content/uploads/2016/07/backyard_view.jpg?resize=768%2C942 768w, https://i1.wp.com/atreegarden.com/wp-content/uploads/2016/07/backyard_view.jpg?w=835 835w\" sizes=\"(max-width: 308px) 100vw, 308px\" data-recalc-dims=\"1\" /></a><p class=\"wp-caption-text\">View from my couch in the family room. Not bad, although the ivy climbing up the tree in the vacant lot behind us kinda bugs.</p></div>\n<h2>Welcome to My Shade Garden</h2>\n<h3>Have you ever become suddenly, weirdly obsessed with something that you&#8217;ve never previously given a second thought to?</h3>\n<p>That happened to me in 2006 when my husband John and I bought an old house on a big, treed lot in a shady suburb north of Seattle. I got bit by the gardening bug as it were. And in the first year, I quickly discovered that any plant requiring full sun was doomed in our garden. Which is kinda ok – I&#8217;ve found my niche, right?</p>\n<h5><strong>What this website is – and isn&#8217;t.</strong></h5>\n<p>This site is dedicated to shade gardening (with a splash of indoor plants). I love gardening, but I&#8217;m not an expert. I&#8217;m learning over time and am slowly becoming a someone who knows a thing or two. I also have little patience for fussy plants that need lots of attention. Our yard is nearly a half acre and there just isn&#8217;t time for that! Our gardens are in progress, imperfect, very Darwinian environments – so plants that do well in our yard will probably do well in yours.</p>\n<h5>There are a lot of gardening websites. Why make another one?</h5>\n<p>Although you can find information about shade gardening on many sites, there seem to be few (or none) dedicated to it. So here I am, I&#8217;m putting my virtual stake in the ground. I figured if some of the information I&#8217;ve collected over the years could help other folks with the shady bits of their gardens, why not put it out there?</p>\n<h5>Why now?</h5>\n<p>For the last decade, I&#8217;ve dutifully collected nursery tags in an ugly white big binder that&#8217;s now bursting at the seams. So last year, in lieu of binder proliferation, I decided to build this website. And I figured because it&#8217;s a website, why not add a navel-gazey blog? Maybe include some details about our property and its microclimates? Most importantly, this will hopefully replace that old-school binder with clean, expandable repository of data that is sortable and searchable.</p>\n<div id=\"attachment_1150\" style=\"width: 279px\" class=\"wp-caption alignright\"><a href=\"https://i1.wp.com/atreegarden.com/wp-content/uploads/2016/06/book-e1492716128164.jpg\" data-rel=\"lightbox-1\" title=\"\"><img data-attachment-id=\"1150\" data-permalink=\"http://atreegarden.com/about/book/\" data-orig-file=\"https://i1.wp.com/atreegarden.com/wp-content/uploads/2016/06/book-e1492716128164.jpg?fit=919%2C1024\" data-orig-size=\"919,1024\" data-comments-opened=\"0\" data-image-meta=\"{&quot;aperture&quot;:&quot;4.5&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;NIKON D90&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1492691394&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;44&quot;,&quot;iso&quot;:&quot;400&quot;,&quot;shutter_speed&quot;:&quot;0.0125&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}\" data-image-title=\"My Gardening Binder\" data-image-description=\"\" data-medium-file=\"https://i1.wp.com/atreegarden.com/wp-content/uploads/2016/06/book-e1492716128164.jpg?fit=269%2C300\" data-large-file=\"https://i1.wp.com/atreegarden.com/wp-content/uploads/2016/06/book-e1492716128164.jpg?fit=750%2C836\" class=\"size-medium wp-image-1150\" src=\"https://i1.wp.com/atreegarden.com/wp-content/uploads/2016/06/book-e1492716128164-269x300.jpg?resize=269%2C300\" alt=\"\" srcset=\"https://i1.wp.com/atreegarden.com/wp-content/uploads/2016/06/book-e1492716128164.jpg?resize=269%2C300 269w, https://i1.wp.com/atreegarden.com/wp-content/uploads/2016/06/book-e1492716128164.jpg?resize=768%2C855 768w, https://i1.wp.com/atreegarden.com/wp-content/uploads/2016/06/book-e1492716128164.jpg?w=919 919w\" sizes=\"(max-width: 269px) 100vw, 269px\" data-recalc-dims=\"1\" /></a><p class=\"wp-caption-text\">This binder has served me well but I think it&#8217;s time to upgrade.</p></div>\n<p>Lastly, this is also a surreptitious web development project. I&#8217;m using a subject I&#8217;m interested in to help my stick-to-it-ive-ness with the goal of improving the site and my coding skills over time while also keeping track of my gardening exploits.</p>\n<h3></h3>\n<p>If you&#8217;ve read this far I&#8217;m impressed! If you&#8217;d like to read even more, sign up for my newsletter. I promise it will be less about me and more about plants! Thanks for stopping by!</p>\n<!-- MailChimp for WordPress v4.1.8 - https://wordpress.org/plugins/mailchimp-for-wp/ --><form id=\"mc4wp-form-1\" class=\"mc4wp-form mc4wp-form-1004\" method=\"post\" data-id=\"1004\" data-name=\"Footer Signup\" ><div class=\"mc4wp-form-fields\"><p>\r\n\t<label>Email address: </label>\r\n\t<input type=\"email\" name=\"EMAIL\" placeholder=\"Your email address\" required />\r\n</p>\r\n\r\n<p>\r\n\t<input type=\"submit\" value=\"Sign up\" />\r\n</p><div style=\"display: none;\"><input type=\"text\" name=\"_mc4wp_honeypot\" value=\"\" tabindex=\"-1\" autocomplete=\"off\" /></div><input type=\"hidden\" name=\"_mc4wp_timestamp\" value=\"1505752327\" /><input type=\"hidden\" name=\"_mc4wp_form_id\" value=\"1004\" /><input type=\"hidden\" name=\"_mc4wp_form_element_id\" value=\"mc4wp-form-1\" /></div><div class=\"mc4wp-response\"></div></form><!-- / MailChimp for WordPress Plugin -->\n<p>&nbsp;</p>\n<h3><span style=\"color: #dbaf34;\">Two Last Things</span></h3>\n<ol>\n<li>Do you like this site? Want one too? My partners and I at <span style=\"color: #dbaf34;\"><a style=\"color: #dbaf34;\" href=\"http://tinywhalecreative.com\">Tiny Whale</a></span> build brands and websites just like this one! <span style=\"color: #dbaf34;\"><a style=\"color: #dbaf34;\" href=\"hello@tinywhalecreative.com\">Hit us up</a></span>, we&#8217;d love to talk to you!</li>\n<li>I somehow fell into comics creation a couple years ago. Check out my strip, <span style=\"color: #dbaf34;\"><a style=\"color: #dbaf34;\" href=\"http://www.gocomics.com/the-daily-drawing\">The Daily Drawing on gocomics.com</a>!</span></li>\n</ol>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n",
+            "protected": false
+        },
+        "excerpt": {
+            "rendered": "<p>Welcome to My Shade Garden Have you ever become suddenly, weirdly obsessed with something that you&#8217;ve never previously given a second thought to? That happened to me in 2006 when my husband John and I bought an old house on a big, treed lot in a shady suburb north of Seattle. I got bit by the gardening [&hellip;]</p>\n",
+            "protected": false
+        },
+        "author": 1,
+        "featured_media": 0,
+        "parent": 0,
+        "menu_order": 0,
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "template": "",
+        "meta": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "http://atreegarden.com/wp-json/wp/v2/pages/717"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "http://atreegarden.com/wp-json/wp/v2/pages"
+                }
+            ],
+            "about": [
+                {
+                    "href": "http://atreegarden.com/wp-json/wp/v2/types/page"
+                }
+            ],
+            "author": [
+                {
+                    "embeddable": true,
+                    "href": "http://atreegarden.com/wp-json/wp/v2/users/1"
+                }
+            ],
+            "replies": [
+                {
+                    "embeddable": true,
+                    "href": "http://atreegarden.com/wp-json/wp/v2/comments?post=717"
+                }
+            ],
+            "version-history": [
+                {
+                    "href": "http://atreegarden.com/wp-json/wp/v2/pages/717/revisions"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "http://atreegarden.com/wp-json/wp/v2/media?parent=717"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 103,
+        "date": "2016-05-22T14:59:14",
+        "date_gmt": "2016-05-22T14:59:14",
+        "guid": {
+            "rendered": "http://atreegarden.com/garden-locations/"
+        },
+        "modified": "2017-04-27T09:06:45",
+        "modified_gmt": "2017-04-27T16:06:45",
+        "slug": "garden-locations",
+        "status": "publish",
+        "type": "page",
+        "link": "http://atreegarden.com/garden-locations/",
+        "title": {
+            "rendered": "Garden Locations"
+        },
+        "content": {
+            "rendered": "<h5 style=\"text-align: center;\">Here&#8217;s is a bit of info about the different areas of our yard and their microclimates. <strong>Cool map coming soon!</strong></h5>\n",
+            "protected": false
+        },
+        "excerpt": {
+            "rendered": "<p>Here&#8217;s is a bit of info about the different areas of our yard and their microclimates. Cool map coming soon!</p>\n",
+            "protected": false
+        },
+        "author": 1,
+        "featured_media": 0,
+        "parent": 0,
+        "menu_order": 0,
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "template": "page-locations.php",
+        "meta": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "http://atreegarden.com/wp-json/wp/v2/pages/103"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "http://atreegarden.com/wp-json/wp/v2/pages"
+                }
+            ],
+            "about": [
+                {
+                    "href": "http://atreegarden.com/wp-json/wp/v2/types/page"
+                }
+            ],
+            "author": [
+                {
+                    "embeddable": true,
+                    "href": "http://atreegarden.com/wp-json/wp/v2/users/1"
+                }
+            ],
+            "replies": [
+                {
+                    "embeddable": true,
+                    "href": "http://atreegarden.com/wp-json/wp/v2/comments?post=103"
+                }
+            ],
+            "version-history": [
+                {
+                    "href": "http://atreegarden.com/wp-json/wp/v2/pages/103/revisions"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "http://atreegarden.com/wp-json/wp/v2/media?parent=103"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 20,
+        "date": "2016-05-22T01:54:41",
+        "date_gmt": "2016-05-22T08:54:41",
+        "guid": {
+            "rendered": "http://atreegarden.com/?page_id=20"
+        },
+        "modified": "2017-06-16T11:07:55",
+        "modified_gmt": "2017-06-16T18:07:55",
+        "slug": "graveyard",
+        "status": "publish",
+        "type": "page",
+        "link": "http://atreegarden.com/graveyard/",
+        "title": {
+            "rendered": "Plant Graveyard"
+        },
+        "content": {
+            "rendered": "<h5 style=\"text-align: center;\">Sometimes things don&#8217;t work out. This will be helpful for the future for myself, and maybe it will help you too. This page is in progress – there are many more dead plants on the way (yay?).</h5>\n",
+            "protected": false
+        },
+        "excerpt": {
+            "rendered": "<p>Sometimes things don&#8217;t work out. This will be helpful for the future for myself, and maybe it will help you too. This page is in progress – there are many more dead plants on the way (yay?).</p>\n",
+            "protected": false
+        },
+        "author": 1,
+        "featured_media": 0,
+        "parent": 0,
+        "menu_order": 0,
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "template": "page-dead.php",
+        "meta": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "http://atreegarden.com/wp-json/wp/v2/pages/20"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "http://atreegarden.com/wp-json/wp/v2/pages"
+                }
+            ],
+            "about": [
+                {
+                    "href": "http://atreegarden.com/wp-json/wp/v2/types/page"
+                }
+            ],
+            "author": [
+                {
+                    "embeddable": true,
+                    "href": "http://atreegarden.com/wp-json/wp/v2/users/1"
+                }
+            ],
+            "replies": [
+                {
+                    "embeddable": true,
+                    "href": "http://atreegarden.com/wp-json/wp/v2/comments?post=20"
+                }
+            ],
+            "version-history": [
+                {
+                    "href": "http://atreegarden.com/wp-json/wp/v2/pages/20/revisions"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "http://atreegarden.com/wp-json/wp/v2/media?parent=20"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 7,
+        "date": "2016-05-21T19:56:28",
+        "date_gmt": "2016-05-21T19:56:28",
+        "guid": {
+            "rendered": "http://atreegarden.com/?page_id=7"
+        },
+        "modified": "2016-06-18T16:27:04",
+        "modified_gmt": "2016-06-18T16:27:04",
+        "slug": "plant-list-old",
+        "status": "publish",
+        "type": "page",
+        "link": "http://atreegarden.com/plant-list-old/",
+        "title": {
+            "rendered": "Plant List (page)"
+        },
+        "content": {
+            "rendered": "",
+            "protected": false
+        },
+        "excerpt": {
+            "rendered": "",
+            "protected": false
+        },
+        "author": 1,
+        "featured_media": 0,
+        "parent": 0,
+        "menu_order": 0,
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "template": "",
+        "meta": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "http://atreegarden.com/wp-json/wp/v2/pages/7"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "http://atreegarden.com/wp-json/wp/v2/pages"
+                }
+            ],
+            "about": [
+                {
+                    "href": "http://atreegarden.com/wp-json/wp/v2/types/page"
+                }
+            ],
+            "author": [
+                {
+                    "embeddable": true,
+                    "href": "http://atreegarden.com/wp-json/wp/v2/users/1"
+                }
+            ],
+            "replies": [
+                {
+                    "embeddable": true,
+                    "href": "http://atreegarden.com/wp-json/wp/v2/comments?post=7"
+                }
+            ],
+            "version-history": [
+                {
+                    "href": "http://atreegarden.com/wp-json/wp/v2/pages/7/revisions"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "http://atreegarden.com/wp-json/wp/v2/media?parent=7"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    }
+]

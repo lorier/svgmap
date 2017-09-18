@@ -22,12 +22,33 @@ window.onload = function(){
 	var mapx;
 	var mapy;
 
-	var clickedPath; //for debugging
 	
 	var x; //close button
 
 	makeClose();
 	enableClickhandlers();
+
+	enableRollovers();
+
+	function enableRollovers() {
+		var suns = bg.selectAll('.sunplant');
+		
+		atg.select('#sun-button').hover(
+			function(evt){
+				suns.forEach(
+					function(sun){
+						sun.stop().animate({transform: 'S1.5 1.5 ' + sun.getBBox().cx + ' ' + sun.getBBox().cy}, 200, mina.easein);
+					}
+			)},
+			function(evt){
+				suns.forEach(
+					function(sun){
+						sun.stop().animate({transform: 'S1 1 ' + sun.getBBox().cx + ' ' + sun.getBBox().cy}, 200, mina.easein);
+					}
+			)}
+			// bg.selectAll('.sunplant').stop().animate({transform: 's2 2 0 0'}, 200, mina.easein);
+		);
+	}
 	
 	function getScalingCenter(obj){
 
@@ -36,10 +57,6 @@ window.onload = function(){
 
 		mapx = bgX - cx;
 		mapy = bgY - cy;
-
-		clickedPath = obj.attr("id");
-		// console.log(clickedPath + " center: " + cx + ", " + cy);
-		// console.log("bg center: " + mapx + ", " + mapy);
 
 		return { "cx" : mapx, "cy" : mapy }
 
@@ -80,13 +97,13 @@ window.onload = function(){
 
 		//exclude non-garden paths from zoom. 
 		var className =  evt.target.getAttribute('class');
-		console.log(className);
+		var id = evt.target.getAttribute('id');
 
-		var str = className;
-		var isGarden = /st[2-9]/.test(str);
-		console.log(isGarden);
+		var isGarden = /st[2-9]/.test(className); //contains substring st?
+		var isNoClick = /no-click/g.test(id); //contains substring no-click?
 
-		if(isGarden && evt.target.id){
+
+		if(isGarden && !isNoClick && evt.target.id){
 
 			var nodeName = "#"+ evt.target.id;
 
@@ -121,6 +138,45 @@ window.onload = function(){
 
 	function enableClickhandlers(){
 		bg.click(zoomMap);
+	}
+
+
+	//Ajax request for Sun Plant Data
+	var req;
+	var data;
+	document.getElementById('sun-button').addEventListener('click', getPosts);
+
+	function getPosts(){
+		// http://localhost/svgmap/posts.json
+		req = new XMLHttpRequest();
+
+		if(!req){
+			alert('Unable to make request');
+			return false;
+		}
+		req.onreadystatechange = processJSON;
+		req.open('GET', 'posts.json');
+		//mdn note: If you do not set header Cache-Control: no-cache the browser will 
+		//cache the response and never re-submit the request, making debugging challenging
+		req.setRequestHeader('Cache-Control', 'no-cache'); //set after open but before send
+		req.send();
+
+	}
+
+	function processJSON(){
+		try {
+			if(req.readyState === XMLHttpRequest.DONE){
+				if(req.status === 200){
+					data = req.responseText;
+					console.log(data);
+				}else{
+					alert('Request failed');
+				}
+			}
+
+		}catch(e){
+			console.log('Caught exception: ' + e.description);
+		}
 	}
 
 
